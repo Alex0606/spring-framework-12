@@ -3,10 +3,8 @@ package ru.otus.spring12.domain;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.keyvalue.annotation.KeySpace;
 
-@KeySpace("person")
 public class Person {
 
-    @Id
     private int id;
     private String name;
 

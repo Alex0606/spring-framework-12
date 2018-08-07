@@ -9,7 +9,6 @@ import ru.otus.spring12.repostory.PersonRepository;
 
 import javax.annotation.PostConstruct;
 
-@EnableMapRepositories
 @SpringBootApplication
 public class Main {
 
